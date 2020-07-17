@@ -30,69 +30,91 @@ body{
 
 .header {
     /* max-width: var(--ancho);  */  /*Revisar*/
-    display: flex;
-    margin: 0 auto; /*Centrar al padre*/
-    height: 60px; /*Definir el alto*/
-    margin-top: -1px; 
+     /*Centrar al padre*/
+    height: 100px; /*Definir el alto*/
   /*  border: 1px solid black;  */ /*Eliminar*/
-    position: relative;
-    background: var(--color-blanco);
+
+ 
+    /* background-color: aqua; */
+     
   }
   
   .header__contenedor {
     display: flex;
-    flex: 1;
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
-    /* background-color: blueviolet;  Eliminar */
+    /* background-color: blueviolet;  */
+    height: 100px;
+    /* align-items: center; */
   }
 
   .header__logo {
-    width: 500px;
-    padding: 20px;
-    display: flex;
-    flex: 30%;
-    justify-content: center;
-    align-items: center;  
-    /*border: 1px solid black; */  /*Eliminar*/
+    width: 20%;
+    /* border: 1px solid black;  */
+    /* background-color: coral; */
+    
   }
 
   .header__logo img {
-     height: 60px;
-     margin-right: 100px; 
-     width: 100px;
+     height: 100px;
+     width: 140px;
      /*border: 1px solid black;*/   /*Eliminar*/
-
+     float: right;  /*mover el logo a la derecha*/
   }
 
   .header__navegacion {
-    flex: 35%;
-    display: flex;
-    /*border: 1px solid black;  */ /*Eliminar*/
+    
+    width: 60%;
+  /* border: 1px solid blue;   */
   }
   .header__lista {
-  list-style: none;
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  /*border: 1px solid black; */  /*Eliminar*/
-  }
+    display: flex;
+    height: 100%;
+    
+    align-items: center;
+  /* border: 1px solid green;  */
+   
+}
+
   .header__item {
-    margin: 0 20px;
-    /*border: 1px solid black;*/   /*Eliminar*/
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    list-style: none; /*Quitar viñetas*/
   }
  
-  .header__item:hover {
+  /* .header__item:hover {
     background-color: var(--color-verde);
      
-  } 
+  }  */
 
   .header__link {
-    text-decoration: none;
+ 
     color: var(--color-plomo);
     font-weight: 700;
+    
+    text-decoration: none; /*quitar subrayado*/
+    
   }
-   
-
+  
 /*--------- FIN DE HEADER   ------*/
+
+
+.principal{
+  /* background-color: brown; */
+   margin-top: 300px; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+.seccion2{
+  width: 100%;
+  /* background-color: chartreuse; */
+}
+
+.card4 img {
+  width: 100%;
+  margin: 0 auto;
+ 
+   /* border: 1px solid black; */
+
+}
